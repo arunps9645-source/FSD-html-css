@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- internal css -->
+     <style>
+h3{
+    color: blue;
+}
+/* id selector */
+#h1-name {
+    color: brown;
+    font-size: 65px;
+}
+/* class selector */
+.theme-clr{
+    color: chartreuse;
+}
+     </style>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- heading -->
+     <h1 id="h1-name">hello!!!!!</h1>
+     <h2 id="h2">welcome all!!!</h2>
     <h3>Welcome</h3>
+    <h4 class="theme-clr">hi</h4>
+    <!-- inline atribute -->
+    <h1 style="color: aqua;">hello</h1>
     <!-- paragraph -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sunt optio debitis fugiat illum beatae exercitationem quidem autem. Corrupti amet labore libero earum nam sed repellat eius recusandae voluptatem blanditiis?</p>
     <img src="./images/switz-lead-image.jpg" alt="">
@@ -61,6 +82,40 @@
         <td>4</td>
     </tr>
    </table>
+   <!-- space tag -->
+   <br>
+   <br>
+   <!-- horizondal line tag -->
+    <hr>
+   <!-- form tag -->
+<form>
+    <label for="name">name:</label>
+<input id="name" type="text" placeholder="enter your name">
+
+<label for="pswd">password:</label>
+<input id="pswd" type="password" placeholder="enter your password" required>
+
+<label for="mail">email id:</label >
+<input id="mail" type="email" placeholder="enter your email">
+
+
+
+
+<input id="male" type="radio" name="gender" value="male" >
+<label for="male">male</label>
+
+<input id="fm" type="radio" name="gender" value="female">
+<label class="fm" for="fm">female</label>
+
+<br>
+<hr>
+ <label for="chbx">please accept</label> <input type="checkbox" value="">
+
+<button >register now</button>
+<br>
+<hr>
+<button disabled>to do</button>
+</form>
 
 </body>
 </html>
