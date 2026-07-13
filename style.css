@@ -27,3 +27,54 @@ p{
     font-weight: 400;
     line-height: 20px;
 }
+/* css- positioning */
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    position: relative;
+
+}
+.child-1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    
+}
+
+    .child-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 172, 99);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    }
+    /* flex box */
+    .home{
+        display: flex;
+        background-color: rgb(91, 91, 88);
+        justify-content: space-between;
+        gap: 50px;
+        height: 200px;
+        align-items: center;
+
+    }
+    .card-1{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(103, 226, 226);
+    }
+     .card-2{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(203, 29, 133);
+    }
+     .card-3{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(198, 134, 24);
+    }
